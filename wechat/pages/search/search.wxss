@@ -1,0 +1,35 @@
+/* pages/search/search.wxss */
+.search-tool {
+  width: calc(100vw - 30rpx);
+  padding: 20rpx;
+  background-color: white;
+  /* display: flex; */
+  align-items: center;
+  border-bottom: 2rpx solid #f0f0f0;
+}
+.button-tool {
+  padding: 20rpx;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border-bottom: 2rpx solid #f0f0f0;
+}
+.search-button {
+  flex-shrink: 0;
+  margin-top: 30rpx;
+  margin-left: 30rpx;
+  width: 150rpx;
+  background-color: #ec6933; 
+  /* // rgb(0, 155, 216); */
+  text-align: center;
+  color: white;
+  height: 54rpx;
+  font-size: 26rpx;
+  line-height: 54rpx;
+  border-radius: 27rpx;
+}
+
+.input-url {
+  border:1px solid;
+  padding: 10rpx;
+}

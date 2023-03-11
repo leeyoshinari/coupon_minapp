@@ -1,0 +1,29 @@
+<!-- miniprogram/pages/index/wmindex.wxml -->
+<view class="ding">
+  </view>
+<view wx:if="{{tabs.length >0}}">
+    <van-tabs bind:change="onChange" active="{{ activeTab }}" swipeable>
+        <van-tab wx:for="{{tabs}}" wx:key="key" title="{{item.title}}">
+            <view class="container">
+                <view class="coupon">
+                    <view class="item" wx:for="{{item.coupon}}" wx:for-index="i" wx:for-item="v" wx:key="key">
+                        <view class="top">
+                            <view class="left">
+                                <view class="content">
+                                    <view class="name">{{ v.name }}</view>
+                                </view>
+                            </view>
+                            <view class="right" data-index="{{i}}" bindtap="toCoupon">快来领取</view>
+                        </view>
+                        <view class="bottom">
+                            <image src="{{v.bannerPic}}" mode="widthFix" data-index="{{i}}" bindtap="toCoupon" />
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </van-tab>
+    </van-tabs>
+</view>
+<view wx:else class="loading">
+    <van-loading size="30px">加载最好的优惠券...</van-loading>
+</view>

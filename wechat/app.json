@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/search/search",
+    "pages/wmindex/index"
+  ],
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#ec6933",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/search/search",
+        "text": "搜索",
+        "iconPath": "images/tabbar/tui-g.png",
+        "selectedIconPath": "images/tabbar/tui.png"
+      },
+      {
+        "pagePath": "pages/wmindex/index",
+        "text": "外卖/活动",
+        "iconPath": "images/tabbar/waimai-g.png",
+        "selectedIconPath": "images/tabbar/waimai.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarTitleText": "领红包 省钱又实惠",
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#0bb9b6",
+    "backgroundColor": "#f0f0f0"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

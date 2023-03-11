@@ -1,0 +1,24 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/wmindex/index",
+          "pathName": "pages/wmindex/index",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}
