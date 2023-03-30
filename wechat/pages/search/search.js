@@ -31,7 +31,16 @@ Page({
     }
     wx.navigateToMiniProgram({
       appId: "wxa918198f16869201",
-      path: "/pages/web/web?specialUrl=1&src=" + this.data.urlPath,
+      path: this.data.urlPath,
+    });
+  },
+  wphsearch: function (e) {
+    if (!this.data.urlPath || this.data.urlPath.trim() === "") {
+      return;
+    }
+    wx.navigateToMiniProgram({
+      appId: "wxe9714e742209d35f",
+      path: this.data.urlPath,
     });
   },
 })

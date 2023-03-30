@@ -69,18 +69,6 @@ Page({
             }]
           },
           {
-            "title": "饿了么",
-            "coupon": [
-              {
-                "name": "饿了么小程序专享红包",
-                "bannerPic": "/images/ele_wmzx.jpg",
-                "minapp": {
-                  "appid": "wxece3a9a4c82f58c9",
-                  "path": "taoke/pages/shopping-guide/index?scene=qUlj9Mu"
-                }
-              }]
-          },
-          {
             "title": "京东",
             "coupon": [
               {
@@ -121,6 +109,18 @@ Page({
                 "minapp": {
                   "appid": "wx91d27dbf599dff74",
                   "path": "/pages/union/proxy/proxy?spreadUrl=https://u.jd.com/IbZZTkx"
+                }
+              }]
+          },
+          {
+            "title": "唯品会",
+            "coupon": [
+              {
+                "name": "满99减5红包",
+                "bannerPic": "http://ms.vpimg1.com/upload/actpics/cps/0/2021/12/29/108/doc6zll13zhz2t7.png",
+                "minapp": {
+                  "appid": "wxe9714e742209d35f",
+                  "path": "pages/special/special?url=https%3A%2F%2Fmst.vip.com%2FyQGeLbXFGz3stkqZzDPqqg.php%3Fwapid%3Dmst_100090020%26_src%3Dmst%26extra_banner%3D115090020%26nova%3D1%26nova_platform%3D1%26mst_page_type%3Dguide%26activityId%3D11088&tra_from=adp%3AC01V4mpu062uzug2%3A%3Amig_code%3Ad619156f131a556c6640229727291160%3Aac014mpu060000cuw0t2ycs1zbpjiq45&chl_type=wxk"
                 }
               }]
           },
