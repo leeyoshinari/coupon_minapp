@@ -17,8 +17,9 @@
 * 注册一个微信小程序。如果小程序不能发布，可以设置为体验版。
 
 ### 页面
-![]()
-![]()
+![](https://github.com/leeyoshinari/coupon_minapp/blob/main/src/sku.JPG)
+![](https://github.com/leeyoshinari/coupon_minapp/blob/main/src/activity.JPG)
+
 如果需要购买商品，需请搭配[coupon](https://github.com/leeyoshinari/coupon)使用，把商品的小程序购买链接粘贴进来即可。
 
 ### 开发
