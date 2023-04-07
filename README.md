@@ -1,4 +1,4 @@
-# coupon_minapp
+# coupon_minapp ![](https://visitor-badge.glitch.me/badge?page_id=leeyoshinari)
 领优惠券的微信小程序，支持京东、唯品会、拼多多的官方活动跳转，支持领取美团外卖优惠券。
 
 由于微信云函数收费，所以这里就是纯静态页面展示。可自由扩展，支持有微信小程序的购物平台。
