@@ -11,6 +11,7 @@
   padding: 20rpx;
   background-color: white;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   border-bottom: 2rpx solid #f0f0f0;
 }

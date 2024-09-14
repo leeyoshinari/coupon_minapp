@@ -7,6 +7,8 @@
       <view class="search-button" bindtap="jdsearch">京东</view>
       <view class="search-button" bindtap="pddsearch">拼多多</view>
       <view class="search-button" bindtap="wphsearch">唯品会</view>
+      <view class="search-button" bindtap="ddsearch">滴滴</view>
+      <view class="search-button" bindtap="hjksearch">好京客</view>
     </view>
   </view>
 </view>

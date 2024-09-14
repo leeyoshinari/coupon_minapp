@@ -23,7 +23,6 @@ Page({
       appId: "wx91d27dbf599dff74",
       path: "pages/union/proxy/proxy?spreadUrl=" + this.data.urlPath,
     });
-    console.log(this.data.urlPath);
   },
   pddsearch: function (e) {
     if (!this.data.urlPath || this.data.urlPath.trim() === "") {
@@ -43,4 +42,22 @@ Page({
       path: this.data.urlPath,
     });
   },
+  ddsearch: function (e) {
+    if (!this.data.urlPath || this.data.urlPath.trim() === "") {
+      return;
+    }
+    wx.navigateToMiniProgram({
+      appId: "wxaf35009675aa0b2a",
+      path: this.data.urlPath,
+    });
+  },
+  hjksearch: function (e) {
+    if (!this.data.urlPath || this.data.urlPath.trim() === "") {
+      return;
+    }
+    wx.navigateToMiniProgram({
+      appId: "wx5f482af87ff127ca",
+      path: this.data.urlPath,
+    });
+  }
 })
