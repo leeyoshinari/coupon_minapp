@@ -17,15 +17,15 @@
 }
 .search-button {
   flex-shrink: 0;
+  padding-top:3%;
   margin-top: 20rpx;
   margin-left: 20rpx;
-  width: 139rpx;
+  width: 269rpx;
   background-color: #ec6933; 
   /* // rgb(0, 155, 216); */
   text-align: center;
   color: white;
-  height: 54rpx;
-  font-size: 26rpx;
+  height: 89rpx;
   line-height: 54rpx;
   border-radius: 27rpx;
 }

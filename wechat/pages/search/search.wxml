@@ -1,12 +1,14 @@
 <!--pages/search/search.wxml-->
 <view class="container">
   <view class="search-tool">  
-    <textarea class="input-url" placeholder="请输入链接" bindinput="bindInput" value="{{urlPath}}"></textarea>
+    <textarea class="input-url" maxlength="-1" placeholder="请输入链接" bindinput="bindInput" value="{{urlPath}}"></textarea>
     <view class="button-tool">
       <view class="search-button" bindtap="clear">清空</view>
       <view class="search-button" bindtap="jdsearch">京东</view>
       <view class="search-button" bindtap="pddsearch">拼多多</view>
       <view class="search-button" bindtap="wphsearch">唯品会</view>
+      <view class="search-button" bindtap="mtsearch">美团</view>
+      <view class="search-button" bindtap="elesearch">饿了么</view>
       <view class="search-button" bindtap="ddsearch">滴滴</view>
       <view class="search-button" bindtap="hjksearch">好京客</view>
     </view>

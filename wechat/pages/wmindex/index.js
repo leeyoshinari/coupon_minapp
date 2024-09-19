@@ -60,24 +60,6 @@ Page({
           //     }
           //   }]
           // }
-          {
-            "title": "生活缴费",
-            "coupon": [{
-              "name": "折扣充值",
-              "bannerPic": "/images/huafei.jpg",
-              "minapp": {
-                "appid": "wx5f482af87ff127ca",
-                "path": "plugin-private://wx92eb6fb9f1218f37/pages/index/index?apikey=25ee321ae0f7f9be&uid=myxq_28931&index=/pages/index/index"
-              }
-            },{
-              "name": "特惠快递",
-              "bannerPic": "/images/kuaidi.jpg",
-              "minapp": {
-                "appid": "wx5f482af87ff127ca",
-                "path": "/pages/web/index?apikey=25ee321ae0f7f9be&uid=myxq_28931&type=15"
-              }
-            }]
-          }
         ];
 
             let all = {
